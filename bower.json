@@ -1,0 +1,31 @@
+{
+  "name": "mean-stack-app",
+  "description": "Project to test the mean stack",
+  "main": "server.js",
+  "authors": [
+    "Andre da Silva <andi.dasilva@hotmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mean",
+    "angularjs",
+    "mongodb",
+    "nodejs",
+    "express"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6"
+  }
+}

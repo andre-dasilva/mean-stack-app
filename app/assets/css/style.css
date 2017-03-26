@@ -1,0 +1,25 @@
+body {
+    min-height: 2000px;
+    padding-top: 70px;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.users-form .form-horizontal .control-label {
+    text-align: left;
+}
+
+.users-form .col-sm-2 {
+    width: 10%;
+}
+
+.users-form .form-control {
+    width: 30%;
+}
+
+h3 {
+    margin-top: 0;
+}

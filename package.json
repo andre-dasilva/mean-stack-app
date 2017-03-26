@@ -1,0 +1,33 @@
+{
+  "name": "mean-stack-app",
+  "version": "0.1.0",
+  "description": "Project to test the mean stack ",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/NewJavaPythonDeveloper/JavaScript-MeanStackApp.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "prestart": "npm install",
+    "postinstall": "bower install",
+    "start": "http-server -a localhost -p 9000 -c-1 app | node server.js"
+  },
+  "keywords": [
+    "mean",
+    "angularjs",
+    "mongodb",
+    "nodejs",
+    "express"
+  ],
+  "author": "Andre da Silva <andi.dasilva@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "http-server": "^0.9.0",
+    "mongoose": "^4.5.2"
+  }
+}

@@ -1,0 +1,10 @@
+<ul>
+    <li ng-repeat="user in users.usersList">
+        <a ui-sref="users_detail({userId: user._id})">{{user.email}}</a>
+    </li>
+</ul>
+
+<a ui-sref="users_add"><button class="btn btn-primary">+ Create User</button></a>
+
+<p><b>Server response: </b><input type="text" ng-model="search" /></p>
+<pre>{{users.usersList | filter: search | json}}</pre>
