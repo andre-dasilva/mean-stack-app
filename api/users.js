@@ -54,7 +54,7 @@ var users = {
     deleteUser: function(req, res) {
         var id = req.params.id;
 
-        User.remove({"id": id}, function(err) {
+        User.findByIdAndRemove(id, function(err) {
             if (err)
                 res.send(err);
         });
